@@ -1,0 +1,17 @@
+Struct
+--------
+
+This is a game that was created by pritom and Raktim for the 4th SFML game jam. The original submission post (http://sfmlgamejam.com/jams/1/games/4) contains the following description:
+
+"Struct is a 2D puzzle game for Windows. In this game, some structures are destroyed(End) with explosions and you have to put them back in their starting(Begin) positions. Hope you enjoy it!
+
+[ give us a mail if you find any problems with the game at pbgm9999@gmail.com ]"
+
+This Github repository is just a place for me (Thomas Galvin) to upload my modifications and a Mac build of the game.
+
+Modifications:
+ - Added Cmake files to build an App bundle on Mac
+ - Added resource_path.hpp to help in finding the path to the resource folder (only a Mac implementation though)
+ - Changed the game to windowed mode (I couldn't get fullscreen to work correctly)
+ - Changed mouse coordinate handling to correctly handle window resizes
+ - Added Icon files
